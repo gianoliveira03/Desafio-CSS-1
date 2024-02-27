@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+header{
+    margin: 47px 0 0 42px;
+    font-weight:400 ;
+    font-size: 20px;
+    line-height: 21px;
+    cursor: pointer;
+    
+}
+
+.link-nav{
+    margin-right: 38px;
+    color: #161A49;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+
+}
+
+
+.botao-nav{
+    background-color:#4CB538 ;
+    width: 124px;
+    height: 51px;
+    line-height: 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 4px);
+    cursor: pointer;
+    
+}
+
+.botao-nav:hover{
+    transform: scale(1.1);
+    
+}
+
+
+
+section{
+    
+    display: flex;
+    margin-left: 80px;
+    margin-top: 7%;
+    align-items: center;
+
+}
+
+.image-principal{
+    width:650px ;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    
+}
+
+.text-principal{
+    
+    padding-top: 170px;
+    margin-left: 84px;
+}
+
+h1{
+    
+    font-size: 62px;
+    color: #161A49;
+    width: 493px;
+}
+
+p{
+    font-size: 18px;
+    margin-right: 125px;
+    margin-top:30px ;
+    letter-spacing: 5px;
+    width: 493px;
+}
+
+.botao2{
+    margin-top: 30px;
+    background-color:#161A49 ;
+    color: white ;
+    width: 124px;
+    height: 51px;
+    line-height: 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 4px 4px);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 650px) {
+    a{
+        display: none;
+    }
+
+    .botao-nav{
+        position: absolute;
+        margin:-30px 0px 0px 250px ;
+        width: 91px;
+        height: 31px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .image-principal{
+        display: block;
+        width: 312px;
+        height: 288px;
+        margin: auto;
+        align-items: center;
+        position:absolute;
+        margin-top:120% ;
+        margin-left: 14%;
+    }
+
+    section{
+        display: block;
+        margin: 30px 0;
+        align-items: center;
+    }
+
+    .text-principal{
+        padding: 100px 0;
+        margin: 50px 0 50px 60px;
+
+    }
+
+    h1{
+        font-size: 30px;
+        height: 60px;
+        width: 278px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top:30px ;
+    letter-spacing: 0;
+    width: 290px;
+    text-align: center;
+    line-height: 30px;
+    }
+
+    .botao2{
+        margin-left: 25%;
+        align-items: center;
+    }
+
+
+
+}
